@@ -9,40 +9,33 @@ import SwiftUI
 
 struct ListingItemView: View {
     
-    var images = ["listing-1", "listing-2", "listing-3", "listing-4"]
-    
     var body: some View {
         VStack(spacing: 8) {
             // images
-            TabView {
-                ForEach(images, id: \.self) { image in
-                    Image(image)
-                        .resizable()
-                        .scaledToFill()
-                }
-            }
-            .frame(height: 320)
-            .clipShape(RoundedRectangle(cornerRadius: 10))
-            .tabViewStyle(.page)
+            ListingImageCarouselView()
+                .frame(height: 320)
+                .clipShape(RoundedRectangle(cornerRadius: 10))
             
             // listing details
             HStack(alignment: .top) {
                 // details
                 VStack(alignment: .leading) {
-                    Text("Miami, Florida")
+                    Text("London, UK")
                         .fontWeight(.semibold)
+                        .foregroundStyle(.black)
                     
-                    Text("12 mi away")
+                    Text("Stay with Anu")
                         .foregroundColor(.gray)
                     
-                    Text("Nov 3 - 10")
+                    Text("Nov 1 - 6")
                         .foregroundColor(.gray)
                     
                     HStack(spacing: 4) {
-                        Text("$567")
+                        Text("$83")
                             .fontWeight(.semibold)
                         Text("night")
                     }
+                    .foregroundStyle(.black)
                 }
                 
                 Spacer()
@@ -51,8 +44,9 @@ struct ListingItemView: View {
                 HStack(spacing: 2) {
                     Image(systemName: "star.fill")
                     
-                    Text("4.86")
+                    Text("4.93")
                 }
+                .foregroundStyle(.black)
             }
             .font(.footnote)
         }
