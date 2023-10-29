@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64B0222A2AEC8F32002E48F8 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B022292AEC8F32002E48F8 /* DestinationSearchView.swift */; };
 		64B17AB52AEA49B0005FE252 /* _0_swift_airbnbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B17AB42AEA49B0005FE252 /* _0_swift_airbnbApp.swift */; };
 		64B17AB72AEA49B0005FE252 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B17AB62AEA49B0005FE252 /* ContentView.swift */; };
 		64B17AB92AEA49B4005FE252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B17AB82AEA49B4005FE252 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64B022292AEC8F32002E48F8 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		64B17AB12AEA49B0005FE252 /* 20-swift-airbnb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20-swift-airbnb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B17AB42AEA49B0005FE252 /* _0_swift_airbnbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0_swift_airbnbApp.swift; sourceTree = "<group>"; };
 		64B17AB62AEA49B0005FE252 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			children = (
 				64B17AD12AEA5BCF005FE252 /* ExploreView.swift */,
 				64BD86BD2AEB4B670022B56B /* SearchAndFilterBar.swift */,
+				64B022292AEC8F32002E48F8 /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64BD86C42AEB61D20022B56B /* ListingImageCarouselView.swift in Sources */,
+				64B0222A2AEC8F32002E48F8 /* DestinationSearchView.swift in Sources */,
 				64B17AD42AEA60D1005FE252 /* ListingItemView.swift in Sources */,
 				64B17AB72AEA49B0005FE252 /* ContentView.swift in Sources */,
 				64B17AD22AEA5BCF005FE252 /* ExploreView.swift in Sources */,
