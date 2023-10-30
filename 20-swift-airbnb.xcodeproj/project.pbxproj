@@ -23,6 +23,8 @@
 		64BD86C02AEB5F4D0022B56B /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BD86BF2AEB5F4D0022B56B /* ListingDetailView.swift */; };
 		64BD86C42AEB61D20022B56B /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BD86C32AEB61D20022B56B /* ListingImageCarouselView.swift */; };
 		64C211942AEE825D00759EF7 /* DeveloperPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C211932AEE825D00759EF7 /* DeveloperPreview.swift */; };
+		64C211992AEE9CD100759EF7 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C211982AEE9CD100759EF7 /* ExploreViewModel.swift */; };
+		64C2119B2AEE9D2200759EF7 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C2119A2AEE9D2200759EF7 /* ExploreService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		64BD86BF2AEB5F4D0022B56B /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 		64BD86C32AEB61D20022B56B /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
 		64C211932AEE825D00759EF7 /* DeveloperPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperPreview.swift; sourceTree = "<group>"; };
+		64C211982AEE9CD100759EF7 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		64C2119A2AEE9D2200759EF7 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,9 +189,9 @@
 		64B17ACD2AEA53AB005FE252 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
-				64B17AD12AEA5BCF005FE252 /* ExploreView.swift */,
-				64BD86BD2AEB4B670022B56B /* SearchAndFilterBar.swift */,
-				64B022292AEC8F32002E48F8 /* DestinationSearchView.swift */,
+				64C211952AEE9CA100759EF7 /* View */,
+				64C211962AEE9CA800759EF7 /* ViewModel */,
+				64C211972AEE9CB500759EF7 /* Service */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -195,8 +199,8 @@
 		64B17ACE2AEA53B2005FE252 /* Listings */ = {
 			isa = PBXGroup;
 			children = (
-				64A92A532AEE0EBB00F2A58E /* Model */,
 				64A92A522AEE0EB500F2A58E /* View */,
+				64A92A532AEE0EBB00F2A58E /* Model */,
 			);
 			path = Listings;
 			sourceTree = "<group>";
@@ -223,6 +227,32 @@
 				64BD86C32AEB61D20022B56B /* ListingImageCarouselView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		64C211952AEE9CA100759EF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64B17AD12AEA5BCF005FE252 /* ExploreView.swift */,
+				64BD86BD2AEB4B670022B56B /* SearchAndFilterBar.swift */,
+				64B022292AEC8F32002E48F8 /* DestinationSearchView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64C211962AEE9CA800759EF7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				64C211982AEE9CD100759EF7 /* ExploreViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		64C211972AEE9CB500759EF7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				64C2119A2AEE9D2200759EF7 /* ExploreService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +331,7 @@
 				64B0222A2AEC8F32002E48F8 /* DestinationSearchView.swift in Sources */,
 				64B17AD42AEA60D1005FE252 /* ListingItemView.swift in Sources */,
 				64B17AB72AEA49B0005FE252 /* ContentView.swift in Sources */,
+				64C211992AEE9CD100759EF7 /* ExploreViewModel.swift in Sources */,
 				64A92A4F2AEDFEED00F2A58E /* WishlistsView.swift in Sources */,
 				64A92A552AEE127500F2A58E /* Listing.swift in Sources */,
 				64B17AD22AEA5BCF005FE252 /* ExploreView.swift in Sources */,
@@ -309,6 +340,7 @@
 				64B17AB52AEA49B0005FE252 /* _0_swift_airbnbApp.swift in Sources */,
 				64A92A512AEE083000F2A58E /* MainTabView.swift in Sources */,
 				64C211942AEE825D00759EF7 /* DeveloperPreview.swift in Sources */,
+				64C2119B2AEE9D2200759EF7 /* ExploreService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,13 +7,13 @@
 
 import Foundation
 
-struct Listing: Identifiable, Codable {
+struct Listing: Identifiable, Codable, Hashable {
     let id: String
     let ownerUid: String
     let ownerName: String
     let ownerImageUrl: String
     let numberOfBedrooms: Int
-    let numberofBathrooms: Int
+    let numberOfBathrooms: Int
     let numberOfGuests: Int
     let numberOfBeds: Int
     var pricePerNight: Int
